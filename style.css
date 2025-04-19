@@ -47,4 +47,9 @@ header{
     margin: 0 35px;
     color: var(--text-color);
     font-size: var(--p-font);
+    transition: all 0.6s ease;
+}
+
+.navlist a:hover{
+    color: var(--main-color);
 }
