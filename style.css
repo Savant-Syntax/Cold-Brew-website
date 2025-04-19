@@ -111,7 +111,7 @@ section{
     font-size: var(--big-font);
     font-weight: 900;
     margin: 15px 0;
-    white-space: nowrap;        /*important*/
+   /* white-space: nowrap;        important*/
 }
 
 .hero-text h5{
@@ -162,10 +162,10 @@ section{
     margin-left: 10px;
 }
 
-.main-hero{
+/* .main-hero{
     display: flex;
     white-space: nowrap;
-}
+} */
 
 .icons{
     position: absolute;
@@ -185,4 +185,22 @@ section{
 .icons i:hover{
     transform: translateY(-5px);
     color: var(--main-color);
+}
+
+.scroll{
+    position: absolute;
+    top: 92%;
+    right: 7%;
+    transform: translateY(-50%);
+}
+
+.scroll a{
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.scroll i{
+    font-size: 20px;
+    color: var(--text-color);
+    margin: 6px;
 }
