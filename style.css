@@ -106,3 +106,26 @@ section{
     width: 100%;
     height: auto;
 }
+
+.hero-text h1{
+    font-size: var(--big-font);
+    font-weight: 900;
+    margin: 15px 0;
+    white-space: nowrap;        /*important*/
+}
+
+.hero-text h5{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.hero-text p{
+    width: 100%;
+    max-width: 620px;
+    font-size: var(--p-font);
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--text-color);
+    margin-bottom: 40px;
+}
